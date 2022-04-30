@@ -90,8 +90,7 @@ export default function ProductModal({ item }) {
     //     console.log(error);
     //   }
     // };
-    if(url){
-
+    if (url) {
       const docRef = doc(db, "products", id);
       updateDoc(docRef, {
         name,
@@ -100,7 +99,7 @@ export default function ProductModal({ item }) {
         description,
         url,
       });
-    }else{
+    } else {
       const docRef = doc(db, "products", id);
       updateDoc(docRef, {
         name,
@@ -269,13 +268,16 @@ export default function ProductModal({ item }) {
                         className="bg-gray-50 border border-gray-300 text-black rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                       >
                         <option value="supplements">Supplements</option>
+                        <option value="medicine">Medicine</option>
                         <option value="oralhygiene">Oral hygiene</option>
                         <option value="cleaningalcohols">
                           Cleaning Alcohols
                         </option>
                         <option value="ayurved">Ayurved</option>
                         <option value="sexualwellness">Sexual Wellness</option>
-                        <option value="healthdevices">Health Devices/Equipment</option>
+                        <option value="healthdevices">
+                          Health Devices/Equipment
+                        </option>
                       </select>
                     </div>
 
