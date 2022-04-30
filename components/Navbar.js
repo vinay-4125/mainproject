@@ -1,12 +1,7 @@
-import { Menu, Transition } from "@headlessui/react";
-import { collection, getDoc, getDocs, query, where } from "firebase/firestore";
-import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import React, { useEffect, useState } from "react";
-import { db } from "../src/config/firebase.config";
+import React from "react";
 import { useUserAuth } from "../src/context/UserAuthContext";
-import Cart from "./cart";
 import Cart2 from "./Cart2";
 import DropdownMenu from "./DropdownMenu";
 import SigninSignup from "./SigninSignup";
