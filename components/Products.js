@@ -198,6 +198,7 @@ const Products = () => {
             >
               <option value="">All</option>
               <option value="supplements">Supplements</option>
+              <option value="medicine">Medicine</option>
               <option value="oralhygiene">Oral hygiene</option>
               <option value="cleaningalcohols">Cleaning Alcohols</option>
               <option value="ayurved">Ayurved</option>
