@@ -174,7 +174,7 @@ const Cart2 = () => {
                                   <li key={cartItem.id} className="flex py-6">
                                     <div className="h-24 w-24 flex-shrink-0 overflow-hidden rounded-md border border-gray-200">
                                       <Image
-                                        src="https://source.unsplash.com/random"
+                                        src={cartItem.url}
                                         alt={cartItem.price}
                                         width="100"
                                         height="100"
