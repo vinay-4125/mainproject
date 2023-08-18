@@ -119,7 +119,7 @@ export default function Invoice({handlePrint}) {
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
       <main className="flex flex-col items-center justify-center w-full flex-1 px-20 my-12">
         <div className="w-full max-w-xl">
-        <h1 className="text-5xl">Coming Soon........</h1>
+        <h1 className="text-5xl"> Coming Soon........</h1>
           <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
             <div className="mb-4">
               <label
